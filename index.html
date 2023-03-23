@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <script
+      src="https://kit.fontawesome.com/529068a966.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Time tracking dashboard</title>
+  </head>
+  <body
+    class="box-border text-white font-sans bg-veryDarkBlue min-h-screen flex items-center justify-center"
+  >
+    <section class="grid lg:grid-cols-4 gap-8 w-full md:max-w-6xl p-5">
+      <aside class="col-span-1 md:col-span-3 lg:col-span-1">
+        <article class="bg-darkBlue rounded-2xl min-h-full">
+          <div
+            class="bg-blue p-8 rounded-2xl flex md:flex-col items-center md:items-start gap-5"
+          >
+            <img
+              src="./images/image-jeremy.png"
+              class="w-16 md:w-20 border-2 md:border-4 border-white rounded-full lg:mb-8"
+              alt="avatar"
+            />
+            <div>
+              <span class="text-paleBlue text-sm">Report for</span>
+              <h1 class="text-2xl md:text-4xl font-light lg:mb-10">
+                Jeremy Robson
+              </h1>
+            </div>
+          </div>
+          <nav class="p-8">
+            <ul
+              class="flex justify-between md:flex-col gap-3 text-lg text-desaturatedBlue"
+            >
+              <li>Daily</li>
+              <li class="text-white">Weekly</li>
+              <li>Monthly</li>
+            </ul>
+          </nav>
+        </article>
+      </aside>
+      <section class="grid md:grid-cols-3 md:grid-rows-2 gap-8 md:col-span-3">
+        <article class="bg-work rounded-2xl relative overflow-hidden">
+          <img
+            src="./images/icon-work.svg"
+            class="absolute right-3 -top-3"
+            alt=""
+          />
+          <div
+            class="bg-darkBlue p-7 rounded-t-2xl flex flex-col gap-3 mt-10 relative z-10"
+          >
+            <div class="flex items-center justify-between md:mb-4">
+              <h2 class="text-lg md:text-base font-medium">Work</h2>
+              <i class="fa-solid fa-ellipsis"></i>
+            </div>
+            <div
+              class="flex md:flex-col items-center md:items-start md:gap-3 justify-between"
+            >
+              <span class="text-4xl md:text-6xl font-light">32hrs</span>
+              <p class="text-sm text-paleBlue">Last Week - 36hrs</p>
+            </div>
+          </div>
+        </article>
+        <article class="bg-play rounded-2xl relative overflow-hidden">
+          <img
+            src="./images/icon-play.svg"
+            class="absolute right-3 -top-3"
+            alt=""
+          />
+          <div
+            class="bg-darkBlue p-7 rounded-t-2xl flex flex-col gap-3 mt-10 relative z-10"
+          >
+            <div class="flex items-center justify-between md:mb-4">
+              <h2 class="text-lg md:text-base font-medium">Play</h2>
+              <i class="fa-solid fa-ellipsis"></i>
+            </div>
+            <div
+              class="flex md:flex-col items-center md:items-start md:gap-3 justify-between"
+            >
+              <span class="text-4xl md:text-6xl font-light">10hrs</span>
+              <p class="text-sm text-paleBlue">Last Week - 8hrs</p>
+            </div>
+          </div>
+        </article>
+        <article class="bg-study rounded-2xl relative overflow-hidden">
+          <img
+            src="./images/icon-study.svg"
+            class="absolute right-3 -top-3"
+            alt=""
+          />
+          <div
+            class="bg-darkBlue p-7 rounded-xl flex flex-col gap-3 mt-10 relative z-10"
+          >
+            <div class="flex items-center justify-between md:mb-4">
+              <h2 class="text-lg md:text-base font-medium">Study</h2>
+              <i class="fa-solid fa-ellipsis"></i>
+            </div>
+            <div
+              class="flex md:flex-col items-center md:items-start md:gap-3 justify-between"
+            >
+              <span class="text-4xl md:text-6xl font-light">4hrs</span>
+              <p class="text-sm text-paleBlue">Last Week - 7hrs</p>
+            </div>
+          </div>
+        </article>
+        <article class="bg-exercise rounded-2xl relative overflow-hidden">
+          <img
+            src="./images/icon-exercise.svg"
+            class="absolute right-3 -top-3"
+            alt=""
+          />
+          <div
+            class="bg-darkBlue p-7 rounded-xl flex flex-col gap-3 mt-10 relative z-10"
+          >
+            <div class="flex items-center justify-between md:mb-4">
+              <h2 class="text-lg md:text-base font-medium">Exercise</h2>
+              <i class="fa-solid fa-ellipsis"></i>
+            </div>
+            <div
+              class="flex md:flex-col items-center md:items-start md:gap-3 justify-between"
+            >
+              <span class="text-4xl md:text-6xl font-light">4hrs</span>
+              <p class="text-sm text-paleBlue">Last Week - 5hrs</p>
+            </div>
+          </div>
+        </article>
+        <article class="bg-social rounded-2xl relative overflow-hidden">
+          <img
+            src="./images/icon-social.svg"
+            class="absolute right-3 -top-3"
+            alt=""
+          />
+          <div
+            class="bg-darkBlue p-7 rounded-xl flex flex-col gap-3 mt-10 relative z-10"
+          >
+            <div class="flex items-center justify-between md:mb-4">
+              <h2 class="text-lg md:text-base font-medium">Social</h2>
+              <i class="fa-solid fa-ellipsis"></i>
+            </div>
+            <div
+              class="flex md:flex-col items-center md:items-start md:gap-3 justify-between"
+            >
+              <span class="text-4xl md:text-6xl font-light">5hrs</span>
+              <p class="text-sm text-paleBlue">Last Week - 10hrs</p>
+            </div>
+          </div>
+        </article>
+        <article class="bg-selfCare rounded-2xl relative overflow-hidden">
+          <img
+            src="./images/icon-self-care.svg"
+            class="absolute right-3 -top-3"
+            alt=""
+          />
+          <div
+            class="bg-darkBlue p-7 rounded-xl flex flex-col gap-3 mt-10 relative z-10"
+          >
+            <div class="flex items-center justify-between md:mb-4">
+              <h2 class="text-lg md:text-base font-medium">Self Care</h2>
+              <i class="fa-solid fa-ellipsis"></i>
+            </div>
+            <div
+              class="flex md:flex-col items-center md:items-start md:gap-3 justify-between"
+            >
+              <span class="text-4xl md:text-6xl font-light">2hrs</span>
+              <p class="text-sm text-paleBlue">Last Week - 2hrs</p>
+            </div>
+          </div>
+        </article>
+      </section>
+    </section>
+  </body>
+</html>
